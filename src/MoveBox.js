@@ -52,7 +52,7 @@ useEffect(()=>{
 
     return ( 
         <div className="Move-box">
-            <h1> https://github.com/haroba2020/movebox.git </h1>
+            <h1> git@github.com:haroba2020/movebox.git </h1>
             <div className="box" style={{ top: heightBox + 'vh', left: widthBox + '%'}}>
             </div>
         </div>
