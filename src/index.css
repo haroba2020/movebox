@@ -6,10 +6,20 @@ body {
   text-align: center;
 }
 .box{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-color: blue;
   background-image: url('/public/troll.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.evilBox{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  background-image: url('/public/evilTrol.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
